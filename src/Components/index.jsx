@@ -74,7 +74,7 @@ export default function Card() {
                 <img
                   key={"card"+ index}
                   src={card.image}
-                  alt={card.code}
+                  alt={card}
                   className='card'
                   style={{ transform: `rotate(${index % 2 === 0 ? Math.min(index * 10, 20) : Math.max(index * -10, -20)}deg)` }}
                 />
